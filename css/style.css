@@ -1,0 +1,277 @@
+/* Start Main Rulz */
+
+* {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+body {
+    font-family: 'Arial';
+    height: auto
+}
+
+ul {
+    list-style: none
+}
+
+select {
+    cursor: pointer;
+    border: 0;
+    outline: 0
+}
+
+.container {
+	max-width: 1250px;
+	margin: auto
+}
+
+.clearfix {
+    clear: both
+}
+
+/* End Main Rulz */
+
+/* Start Header */
+
+header .nav {
+    width: 100%;
+    max-height: 80px;
+    overflow: hidden;
+    background-color: #fed000
+}
+
+header .nav ul:first-child {
+    float: left
+}
+
+header .nav ul:last-child {
+    float: right
+}
+
+header .nav ul li {
+    float: left;
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold
+}
+
+header .nav ul:first-child li.market-logo {
+    text-transform: uppercase;
+    font-family: 'Verdana';
+    font-size: 16px;
+    border-right: 2px solid #000;
+    margin-right: 20px;
+    padding-right: 30px
+}
+
+header .nav ul li select {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    background: none
+}
+
+/* End Header */
+
+/* Start Content */
+
+.content {
+    margin: 30px 80px
+}
+
+.content .search-box input[type=text] {
+    width: 130px;
+    color: #ccc;
+    border: 2px solid #ccc;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../images/searchicon.png');
+    background-position: 555px 2px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 8px 10px;
+    width: 50%;
+    float: left
+}
+
+.content .drops li {
+    float: left;
+}
+
+.content .drops li select {
+    color: #888
+}
+
+.content .drops li select {
+    padding: 10px 0 12px 120px;
+}
+
+.content .drops li select.count {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc
+}
+
+/* Start Video Section */
+
+.content .video-sec iframe {
+    float: left;
+    margin: 40px 10px;
+    border: none;
+    box-shadow: 5px 5px 18px 0 #ccc
+}
+
+/* End Video Section */
+
+
+
+/* Start Pic Section */
+
+.pic-sec {
+    position: relative
+}
+
+.pic-sec h4 {
+    text-transform: uppercase;
+    color: #888;
+    padding: 25px 20px;
+    border-bottom: 1px solid #999;
+    border-left: 12px solid #fed000
+    
+}
+
+.pic-sec .ico-class {
+    float: right;
+    color: #888;
+    position: absolute;
+    top: 30px;
+    right: 20px
+}
+
+.pic-sec .small-pic img {
+    width: 270px;
+    height: 170px;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 10px
+}
+
+.pic-sec img:hover {
+    opacity: 0.7
+}
+
+.pic-sec .small-pic .centered:hover {
+    opacity: 0.5
+}
+
+.pic-sec .small-pic .cont {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.pic-sec .small-pic .centered {
+    position: absolute;
+    top: 150px;
+    left: 143px;
+    transform: translate(-50%, -50%);
+    padding: 10px 100px;
+    background-color: #000;
+    border-radius: 10px;
+    opacity: 0.7
+}
+
+.pic-sec .big-pic img {
+    width: 370px;
+    height: 200px;
+    cursor: pointer;
+    margin: 20px 10px;
+    border-radius: 10px
+}
+
+/* End Pic Section */
+
+/* End Content */
+
+
+/* Start Footer */
+
+footer {
+    background-color: #fed000;
+    height: 290px
+}
+
+footer ul {
+    float: left;
+    margin-right: 100px;
+    padding: 30px 50px
+}
+
+footer ul li:first-child {
+    font-weight: bold
+}
+
+footer ul li {
+    padding-bottom: 5px;
+    cursor: pointer
+}
+
+footer h2 {
+    text-transform: uppercase;
+    padding-top: 80px
+}
+
+footer .social {
+    margin: 0
+}
+
+footer .social li {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block
+}
+
+footer p {
+    padding-left: 40px;
+    font-weight: bold
+}
+
+footer p span {
+    color: #fff
+}
+
+footer button {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: none;
+    cursor: pointer;
+                
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    outline: none;
+    background-color: #fed000;
+    color: white;
+}
+
+
+/* End Footer */
+
+#map {
+    width: 550px;
+    height: 300px;
+    margin: 40px 10px 40px 0;
+    background-color: #ccc;
+    float: right
+}
+
+
+
